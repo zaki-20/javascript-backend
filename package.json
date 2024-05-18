@@ -1,0 +1,17 @@
+{
+  "name": "javascript-backend",
+  "version": "1.0.0",
+  "description": "Best Backend practices used",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "expressjs",
+    "backend"
+  ],
+  "author": "Zakria Yasir",
+  "license": "ISC"
+}
