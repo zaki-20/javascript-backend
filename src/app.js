@@ -1,6 +1,9 @@
 import express from "express"
 import cors from "cors"
 import cookieParser from "cookie-parser"
+import helmet from "helmet"
+import morgan from "morgan"
+import compression from "compression"
 
 const app = express()
 
