@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended: true, limit: "16kb"}))
 app.use(express.static("public"))
 app.use(cookieParser())
 app.use(helmet());
-app.use(morgan('combined'));
+app.use(morgan());
 app.use(compression());
 
 
